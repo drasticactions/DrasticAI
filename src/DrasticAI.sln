@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrasticAI", "DrasticAI\DrasticAI.csproj", "{56A4079C-2486-4309-9088-4E5FFD45F356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LlamaCppLib", "..\external\LlamaCppNet\LlamaCppLib\LlamaCppLib.csproj", "{FB55C556-FEF8-43BB-AF49-390C8841D1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhiExplorerCli", "PhiExplorerCli\PhiExplorerCli.csproj", "{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A4079C-2486-4309-9088-4E5FFD45F356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A4079C-2486-4309-9088-4E5FFD45F356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A4079C-2486-4309-9088-4E5FFD45F356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A4079C-2486-4309-9088-4E5FFD45F356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB55C556-FEF8-43BB-AF49-390C8841D1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB55C556-FEF8-43BB-AF49-390C8841D1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB55C556-FEF8-43BB-AF49-390C8841D1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB55C556-FEF8-43BB-AF49-390C8841D1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

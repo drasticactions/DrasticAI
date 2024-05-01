@@ -1,0 +1,30 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup> 
+		<DefineConstants Condition="$([MSBuild]::IsOSPlatform('Windows'))">WINDOWS</DefineConstants>
+		<DefineConstants Condition="$([MSBuild]::IsOSPlatform('Linux'))">LINUX</DefineConstants>
+		<DefineConstants Condition="$([MSBuild]::IsOSPlatform('OSX'))">MACOS</DefineConstants>
+		<IsWindows>$([MSBuild]::IsOSPlatform('Windows'))</IsWindows>
+		<IsLinux>$([MSBuild]::IsOSPlatform('Linux'))</IsLinux>
+		<IsOSX>$([MSBuild]::IsOSPlatform('OSX'))</IsOSX>
+	</PropertyGroup>
+    <ItemGroup Condition="$(IsOSX) AND $(TargetFramework.Contains('-')) == false">
+        <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\libllama.dylib">
+            <Pack>true</Pack>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>LlamaCppLib\libllama.dylib</TargetPath>
+        </None>
+        <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\libggml_shared.dylib">
+            <Pack>true</Pack>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>LlamaCppLib\libggml_shared.dylib</TargetPath>
+        </None>
+        <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\default.metallib">
+            <Pack>true</Pack>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>LlamaCppLib\default.metallib</TargetPath>
+        </None>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+[submodule "external/LlamaCppNet"]
+	path = external/LlamaCppNet
+	url = git@github.com:drasticactions/llama.cpp-dotnet.git
