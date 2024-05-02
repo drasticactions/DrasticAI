@@ -1,3 +1,6 @@
 [submodule "external/LlamaCppNet"]
 	path = external/LlamaCppNet
 	url = git@github.com:drasticactions/llama.cpp-dotnet.git
+[submodule "external/WhisperCppLib"]
+	path = external/WhisperCppLib
+	url = git@github.com:drasticactions/WhisperCppLib.git

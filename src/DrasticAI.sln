@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LlamaCppLib", "..\external\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhiExplorerCli", "PhiExplorerCli\PhiExplorerCli.csproj", "{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperCppLib", "..\external\WhisperCppLib\src\WhisperCppLib\WhisperCppLib.csproj", "{93B2674D-608A-477E-AB00-C8EDD30F28A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodcastSummary", "PodcastSummary\PodcastSummary.csproj", "{82E057DB-C4BE-4CD7-85EB-2DA75580952D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D40DA99-CFB1-4131-8597-0AFCF92E28B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B2674D-608A-477E-AB00-C8EDD30F28A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B2674D-608A-477E-AB00-C8EDD30F28A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B2674D-608A-477E-AB00-C8EDD30F28A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B2674D-608A-477E-AB00-C8EDD30F28A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E057DB-C4BE-4CD7-85EB-2DA75580952D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E057DB-C4BE-4CD7-85EB-2DA75580952D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E057DB-C4BE-4CD7-85EB-2DA75580952D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E057DB-C4BE-4CD7-85EB-2DA75580952D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
